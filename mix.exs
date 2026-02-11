@@ -4,7 +4,7 @@ defmodule HarfbuzzEx.MixProject do
   def project do
     [
       app: :harfbuzz_ex,
-      version: "0.2.2",
+      version: "0.2.5",
       elixir: "~> 1.19",
       start_permanent: Mix.env() == :prod,
       deps: deps()

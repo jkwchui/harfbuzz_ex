@@ -6,7 +6,7 @@ defmodule HarfbuzzEx do
 
   use RustlerPrecompiled,
   otp_app: :harfbuzz_ex,
-  crate: "harfbuzzex",
+  crate: "harfbuzz_ex",
   base_url: "https://github.com/jkwchui/harfbuzz_ex/releases/download/v#{version}",
   force_build: Mix.env() == :dev,
   # force_build: System.get_env("BUILD_NATIVE") == "true",

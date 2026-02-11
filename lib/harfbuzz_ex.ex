@@ -8,7 +8,8 @@ defmodule HarfbuzzEx do
   otp_app: :harfbuzz_ex,
   crate: "harfbuzzex",
   base_url: "https://github.com/jkwchui/harfbuzz_ex/releases/download/v#{version}",
-  force_build: System.get_env("BUILD_NATIVE") == "true",
+  force_build: Mix.env() == :dev,
+  # force_build: System.get_env("BUILD_NATIVE") == "true",
   version: version
 
   defmodule Glyph do

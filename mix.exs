@@ -4,7 +4,7 @@ defmodule HarfbuzzEx.MixProject do
   def project do
     [
       app: :harfbuzz_ex,
-      version: "0.3.0",
+      version: "0.3.1",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -18,7 +18,9 @@ defmodule HarfbuzzEx.MixProject do
     [
       files: [
         "lib",
-        "native",
+        "native/harfbuzz_ex/src",
+        "native/harfbuzz_ex/Cargo.toml",
+        "native/harfbuzz_ex/Cargo.lock",
         "mix.exs",
         "README.md",
         "LICENSE",
@@ -38,6 +40,7 @@ defmodule HarfbuzzEx.MixProject do
 
   defp deps do
     [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:rustler, "~> 0.37.0", runtime: false},
       {:rustler_precompiled, "~> 0.7.0"}
     ]

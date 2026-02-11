@@ -4,25 +4,40 @@ defmodule HarfbuzzEx.MixProject do
   def project do
     [
       app: :harfbuzz_ex,
-      version: "0.2.5",
-      elixir: "~> 1.19",
+      version: "0.3.0",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package(),
+      description: "Elixir binding for Harfbuzz using Rustybuzz as NIF, with RustlerPrecompiled",
+      source_url: "https://github.com/jkwchui/harfbuzz_ex"
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
+  defp package do
+    [
+      files: [
+        "lib",
+        "native",
+        "mix.exs",
+        "README.md",
+        "LICENSE",
+        "checksum-Elixir.HarfbuzzEx.exs"
+      ],
+      maintainers: ["Jon Chui"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/jkwchui/harfbuzz_ex"}
+    ]
+  end
+
   def application do
     [
       extra_applications: [:logger]
     ]
   end
 
-  # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
       {:rustler, "~> 0.37.0", runtime: false},
       {:rustler_precompiled, "~> 0.7.0"}
     ]

@@ -13,6 +13,7 @@ defmodule HarfbuzzEx do
       "x86_64-unknown-linux-gnu",
       "x86_64-pc-windows-msvc",
       "x86_64-pc-windows-gnu"
-    ]
+    ],
+  nif_versions: ["2.15", "2.16"]
 
 end

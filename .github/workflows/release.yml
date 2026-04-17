@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        nif: ["2.15", "2.16"] # Support recent Erlang NIF versions; omitted 2.16
+        nif: ["2.15", "2.16"] # Support recent Erlang NIF versions
         job:
           # Linux (standard x86)
           - { target: x86_64-unknown-linux-gnu,     os: ubuntu-22.04 }

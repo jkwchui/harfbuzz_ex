@@ -10,7 +10,7 @@ by adding `harfbuzz_ex` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:harfbuzz_ex, "~> 0.1.0"}
+    {:harfbuzz_ex, "~> 1.1"}
   ]
 end
 ```

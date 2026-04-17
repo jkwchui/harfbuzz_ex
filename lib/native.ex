@@ -1,6 +1,7 @@
 defmodule HarfbuzzEx.Native do
   @moduledoc false
 
+  @external_resource "mix.exs"
   version = Mix.Project.config()[:version]
 
   use RustlerPrecompiled,

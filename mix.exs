@@ -24,7 +24,7 @@ defmodule HarfbuzzEx.MixProject do
         "mix.exs",
         "README.md",
         "LICENSE",
-        "checksum-Elixir.HarfbuzzEx.exs"
+        "checksum-Elixir.HarfbuzzEx.Native.exs"
       ],
       maintainers: ["Jon Chui"],
       licenses: ["MIT"],

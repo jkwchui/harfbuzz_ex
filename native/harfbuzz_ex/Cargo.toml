@@ -1,6 +1,6 @@
 [package]
 name = "harfbuzz_ex"
-version = "1.0.2"
+version = "1.0.5"
 authors = []
 edition = "2021"
 

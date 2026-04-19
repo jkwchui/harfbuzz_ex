@@ -41,6 +41,7 @@ defmodule HarfbuzzEx.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      {:nimble_pool, "~> 1.1"},
       {:rustler, "~> 0.30", runtime: false},
       {:rustler_precompiled, "~> 0.7"}
     ]

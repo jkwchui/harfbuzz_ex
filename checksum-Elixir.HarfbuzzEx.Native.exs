@@ -1,10 +1,10 @@
 %{
-  "harfbuzz_ex-v1.1.0-nif-2.15-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:3426706e858bba4169310fe9a802f510ae88a2ce14304ae7ca63d76d8770d746",
-  "harfbuzz_ex-v1.1.0-nif-2.15-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:f9c69643950b2dda697199d1f0b133a758ed8d469711b686de454119b024e9a3",
-  "harfbuzz_ex-v1.1.0-nif-2.16-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:bdb6d32771dcc9dae6d3ae51749bd438b08f705cc862d0bdd1f81f9f7f8c2706",
-  "harfbuzz_ex-v1.1.0-nif-2.16-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:a6e6701f09173a28494bbb1210cfcd9ec15f2de976c35ed0d47cd3a57af13b73",
-  "libharfbuzz_ex-v1.1.0-nif-2.15-aarch64-apple-darwin.so.tar.gz" => "sha256:2e87f70d542494ecdfca657e23b45ef01f8bc15189b930265e1cfef582f9f783",
-  "libharfbuzz_ex-v1.1.0-nif-2.15-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:d2ff4c9e3582bb4acd6784442ceb7616dd3ce513d436491de202c6720db3525a",
-  "libharfbuzz_ex-v1.1.0-nif-2.16-aarch64-apple-darwin.so.tar.gz" => "sha256:7518ac46ae1cefc1773c6088383f4e9a6e6ad7ea31d9762e8726e5f7e539f6b4",
-  "libharfbuzz_ex-v1.1.0-nif-2.16-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:4ef2ee8f1ad3911438589a0aa7bcd74d7abd8fda8d18aa97e81af01a4738cb67",
+  "harfbuzz_ex-v1.2.0-nif-2.15-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:d53570dd5e9959c4bcca2f537d953672e6d6859f61941eaf81243607e9fc7045",
+  "harfbuzz_ex-v1.2.0-nif-2.15-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:bb6413312b1c361efdfe62e1e5f01ac4ce24bc6565979ea72f0f6a194b42db17",
+  "harfbuzz_ex-v1.2.0-nif-2.16-x86_64-pc-windows-gnu.dll.tar.gz" => "sha256:68d7f086ff8e9234c13ddeabd4c594f8d9dc240d70820d1396083f10f1d6f863",
+  "harfbuzz_ex-v1.2.0-nif-2.16-x86_64-pc-windows-msvc.dll.tar.gz" => "sha256:d1c746b4884b69880c3fbd33d63bcaf163e8558e55b0ce394fe666e3666281c4",
+  "libharfbuzz_ex-v1.2.0-nif-2.15-aarch64-apple-darwin.so.tar.gz" => "sha256:edbed908290366ff26ec3f1e29650091c33a1c8ce7437d95eba23d47b91b5184",
+  "libharfbuzz_ex-v1.2.0-nif-2.15-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:b77688775c51e26c810054e03d2aa60046a998fb3022927782d85f38eba9ff54",
+  "libharfbuzz_ex-v1.2.0-nif-2.16-aarch64-apple-darwin.so.tar.gz" => "sha256:f0c2098acd92cbad8f10c62d16db96b01d9a4907b5b27e29f9348b773a6c8333",
+  "libharfbuzz_ex-v1.2.0-nif-2.16-x86_64-unknown-linux-gnu.so.tar.gz" => "sha256:d95a9e55d08c10efd86d42128b3a18bd833239324b8dbfa6e4ba8486fec14d1f",
 }
